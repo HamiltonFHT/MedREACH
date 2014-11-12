@@ -1,0 +1,4 @@
+Patient #,First Name,Surname,Postal Code,Age,Descrption,Privacy,Number of Appointments,Number of Conditions
+103,Tomato,Sauce,L8L 5D6,52,"Hypertension, Congestive heart failure, DM type 2, Depression, COPD, Type II Diabetes",,27,6
+102,Campbell,Soup,L8J 5D6,51,"Hypertension DM type 2, Depression, COPD, Type II Diabetes",,10,4
+101,Bruce,Wayne,L8P 5D6,50,"Hypertension, Congestive heart failure, COPD",,16,3
