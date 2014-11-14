@@ -16,6 +16,7 @@ from tkinter.filedialog import askopenfilename, asksaveasfilename, Tk
 import csv, sys
 import pprint
 from operator import itemgetter
+import re
 
 #Prevent tk window from displaying
 root = Tk()
@@ -47,8 +48,13 @@ with open(filename, 'r') as f:
         #Begin counting appointment for a new patient
 
         condList = row[5];
-
-        numConditions = len(condList.split(','))
+        conditions = []
+        for c in condList.split(','):
+            m = re.search("smok", c.lower())
+            if not m:
+                conditions.append(c)
+                
+        numConditions = len(conditions)
         row.append(numConditions)
 
         output.append(row)
@@ -73,8 +79,7 @@ else:
                 if row[8] >= 3:
                     writer.writerow(row)
 
-print("Finished Analysis")
-        
-
+print("Finished!")
+print("You can find the analysis in ", output_file)
 
 

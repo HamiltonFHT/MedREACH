@@ -1,4 +1,4 @@
 Patient #,First Name,Surname,Postal Code,Age,Descrption,Privacy,Number of Appointments
-101,Bruce,Wayne,L8P 5D6,50,"Hypertension, Congestive heart failure, COPD",,16
+101,Bruce,Wayne,L8P 5D6,50,"Hypertension, Congestive heart failure, COPD, Smoker",,16
 102,Campbell,Soup,L8J 5D6,51,"Hypertension DM type 2, Depression, COPD, Type II Diabetes",,10
 103,Tomato,Sauce,L8L 5D6,52,"Hypertension, Congestive heart failure, DM type 2, Depression, COPD, Type II Diabetes",,27
